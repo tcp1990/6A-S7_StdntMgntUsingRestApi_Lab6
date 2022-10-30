@@ -121,6 +121,13 @@
 			<artifactId>commons-dbcp</artifactId>
 			<version>${dbcp-version}</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.24</version>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 
 	<build>
